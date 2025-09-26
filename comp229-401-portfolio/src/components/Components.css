@@ -1,0 +1,281 @@
+/*Home.css */
+.home-container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 50px;
+}
+.home-container h2{
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.mission-statement {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.buttons-container {
+  margin-top: 30px;
+  
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  
+}
+/*About.css */
+.about-container {
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 50px;
+  
+}
+.about-container h2 {
+ 
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+
+
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.resume-link {
+  margin-top: 20px;
+}
+
+.resume-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #898AC4;
+}
+
+.resume-link a:hover {
+  text-decoration: underline;
+}
+
+/*Projects.css */
+.projects-container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 40px;
+}
+.projects-container h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(157, 96, 222, 0.1);
+}
+
+.project-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-card h2 {
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/*Education.css */
+.education {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.education h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.edu-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(122, 49, 231, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.edu-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.edu-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/*Services.css */
+.services {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: rgb(6, 6, 6);
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #8a8585;
+}
+
+/*Contact.css */
+.contact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact h2 {
+font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-panel {
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(159, 133, 225, 0.1);
+  text-align: left;
+}
+
+.contact-panel p {
+  margin: 10px 0;
+  color: #000000;
+}
+
+.contact-panel a {
+  color: #477cc7;
+  text-decoration: none;
+}
+
+.contact-panel a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #363333;
+  color: #363333;
+  font-size: 1rem;
+  background-color: #e3e2e7;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+ 
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #898AC4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.contact-form button:hover {
+  background-color: #3639d3;
+  
+}
+
+.contact-panel a:hover {
+  text-decoration: underline;
+}
