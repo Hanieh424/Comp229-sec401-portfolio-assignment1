@@ -7,6 +7,7 @@ export default defineConfig({
   preview: {
     allowedHosts:[
       'comp229-sec401-portfolio-assignment1.onrender.com'
-    ]
+    ],
+    port: 5173
   }
 })
