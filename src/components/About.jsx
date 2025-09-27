@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Components.css';
 import profile from '../imgs/me.png';
+import resume from '../Docs/resume.pdf';
 
  const About = () => {
    return (
@@ -28,7 +29,7 @@ to make a positive impact in both my work and community.
       </p>
       {/* Resume link */}
       <div className="resume-link">
-        <a href="../Docs/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href={resume} target="_blank" rel="noopener noreferrer">
           View My Resume (PDF)
         </a>
       </div>
