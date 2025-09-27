@@ -6,7 +6,7 @@ export default function Layout() {
         
       <><div className="logo-container">
             <Link to="/">
-                <img src="../imgs/S.png" alt="Logo" className="logo" />
+                <img src="/imgs/S.png" alt="Logo" className="logo" />
             </Link>
         </div>
         <nav className="navbar">
