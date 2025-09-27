@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import './Components.css';
+import project1 from '../imgs/1.jpg';
+import project2 from '../imgs/2.jpg';
+import project3 from '../imgs/3.jpg';
 
 const Projects = () => {
   return (
@@ -9,7 +12,7 @@ const Projects = () => {
       <div className="projects-grid">
         {/* Project 1 */}
         <div className="project-card">
-          <img src="../imgs/1.jpg" alt="Planara App" className="project-image" />
+          <img src={project1} alt="Planara App" className="project-image" />
           <h2>Planara – Intelligent Travel Planner</h2>
           <p>
             Planara is a smart travel planner web application that creates personalized itineraries 
@@ -25,7 +28,7 @@ const Projects = () => {
 
         {/* Project 2 */}
         <div className="project-card">
-          <img src="../imgs/2.jpg" alt="Anxora App" className="project-image" />
+          <img src={project2} alt="Anxora App" className="project-image" />
           <h2>Anxora – Anxiety Support App</h2>
           <p>
             Anxora is a mobile-friendly app designed to support individuals managing anxiety. 
@@ -39,7 +42,7 @@ const Projects = () => {
 
         {/* Project 3 */}
         <div className="project-card">
-          <img src="../imgs/3.jpg" alt="IntroLink App" className="project-image" />
+          <img src={project3} alt="IntroLink App" className="project-image" />
           <h2>IntroLink – Friendship Finder for Introverts</h2>
           <p>
             IntroLink is a social networking app designed to help introverts build meaningful 

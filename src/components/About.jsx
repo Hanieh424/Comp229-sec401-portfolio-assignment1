@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import './Components.css';
+import profile from '../imgs/me.png';
 
  const About = () => {
    return (
     <div className="about-container">
       <h2>About Me</h2>
       <img 
-        src="../imgs/me.png" 
+        src={profile}
         alt="Hanieh" 
         className="profile-image" 
       />
