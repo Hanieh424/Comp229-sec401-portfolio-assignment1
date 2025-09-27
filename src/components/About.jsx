@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Components.css';
 import profile from '../imgs/me.png';
-import resume from '../Docs/resume.pdf';
+import resume from '../Docs/Resume.pdf';
 
  const About = () => {
    return (
